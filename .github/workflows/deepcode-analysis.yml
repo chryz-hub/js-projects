@@ -1,4 +1,4 @@
-name: A DeepCode analysis
+name: deepcode-code-scanning-analysis
 
 on:
   # Trigger the workflow on push or pull request, but only for the master branch
@@ -19,7 +19,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Perform DeepCode analysis
-      uses: georgismitev/deepcode-code-scanning-analysis@master
+      uses: georgismitev/deepcode-code-scanning-analysis@v0.1-pre-release
       env:
         DEEPCODE_TOKEN: ${{ secrets.DEEPCODE_TOKEN }}
 
