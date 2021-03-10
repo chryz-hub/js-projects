@@ -1,29 +1,16 @@
-name: deepcode-code-scanning-analysis
-
-on:
-  # Trigger the workflow on push or pull request, but only for the master branch
-  push:
-    branches:
-      - master
+name: Bento
+on: 
   pull_request:
-    branches:
-      - master
-
+  push:
+    branches: [ master ]
 jobs:
-  Deepcode-Build:
+  bento:
     runs-on: ubuntu-latest
-
+    name: Check
     steps:
-
-    - name: Checkout
-      uses: actions/checkout@v2
-
-    - name: Perform DeepCode analysis
-      uses: georgismitev/deepcode-code-scanning-analysis@v0.1-pre-release
-      env:
-        DEEPCODE_TOKEN: ${{ secrets.DEEPCODE_TOKEN }}
-
-    - name: Upload report
-      uses: github/codeql-action/upload-sarif@v1
+    - uses: actions/checkout@v1
+    - name: Bento
+      id: bento
+      uses: returntocorp/bento-action@v1
       with:
-        sarif_file: output.sarif
+        acceptTermsWithEmail: <alabaolanrewaju13@gmail.com>
