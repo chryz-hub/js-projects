@@ -1,5 +1,6 @@
 # js-newbies-project
 
+
 This is a repository where codes, programs and projects written in javascript are brought together for the growth, fast learning and also the creating of hand-on-projects 
 experiences for codenewbies(beginners) and developers in the language `JAVASCRIPT`
 
