@@ -38,3 +38,5 @@ Next off, an event listener is added to the document, listening for `input` on t
 ```
 
 If the event object property `target` targets either `color1` or `color2`, then there respective values will be changed and also the `body` element of the webpage reflect those changes of the `input` element, by changing the background colour.
+
+Created by: [Favourite Jome](https://github.com/jomefavourite)
