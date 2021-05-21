@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Open Sans';
+  background: rgba(0, 0, 0, 0.082);
+}
+
+main {
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.274);
+  background: #fff;
+}
+
+input[type='search'] {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+ul li {
+  list-style: none;
+  border-left: 2px solid black;
+  padding: 0.5rem;
+}
+
+li + li {
+  margin-top: 1rem;
+}
+
+#notFound {
+  display: none;
+}
