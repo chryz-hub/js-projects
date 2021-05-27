@@ -27,5 +27,6 @@ In order for us not to ignore your effort, please check well not to make a dupli
     <ul>
         <li><a href="https://github.com/chryz-hub/js-projects/tree/master/all-javascript-codes/password-generator">Password-Generator</a>
         <li><a href="./all-javascript-codes/background_generator/README.md">Background-Generator   </a></li>
+        <li><a href="https://github.com/chryz-hub/js-projects/tree/master/all-javascript-codes/Filter_Functionality_Javascript">Filter_Functionality_Javascript</a>
    </ul>
 </details>
